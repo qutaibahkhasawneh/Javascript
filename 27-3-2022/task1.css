@@ -1,0 +1,38 @@
+textarea {
+    width: 20%;
+}
+
+button {
+    width: 20%;
+}
+
+input {
+    width: 20%;
+}
+
+form {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+
+}
+
+div div label {
+    margin-left: -120px;
+}
+
+
+
+
+.card {
+
+    background-size: cover;
+    background-position: center;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 10px 15px 20px 15px#888888;
+    padding: 10px;
+   
+    
+ 
+}
