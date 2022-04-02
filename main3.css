@@ -2,153 +2,17 @@
 
 body{
 	font-family: 'Poppins', sans-serif;
-	font-weight: 350;
-	font-size: 20px;
+	font-weight: 300;
+	font-size: 15px;
 	line-height: 1.7;
-	color:#f5f4ef;
+	color: #9591a7;
 	/* background-color: #6c6c6e; */
-	overflow: hidden;
-    /* background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%); */
+	overflow-x: hidden;
+    background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+
+
+
 }
-
-
-    .circle1 {
-      top: 0;
-      position: absolute;
-      width: 100%;
-      z-index: -1;
-      height: 100%;
-      background-image: linear-gradient(-225deg, #A8BFFF 0%, #884D80 100%);
-      border: 1px solid;
-  
-      clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-  }
-  
-
-  .bubbles {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    transform: translateZ(0);
-}
-
-.bubbles li {
-    position: absolute;
-    display: block;
-    list-style: none;
-    bottom: -100px;
-    background-color: rgba(255, 255, 255, 0.15);
-    animation: square 20s infinite;
-    transition-timing-function: linear;
-}
-
-.bubbles li:nth-child(1) {
-    width: 40px;
-    height: 40px;
-    left: 20%;
-}
-
-.bubbles li:nth-child(2) {
-  width: 60px;
-  height: 60px;
-  left: 40%;
-  clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
-  animation-delay: 2s;
-  animation-duration: 17s;
-}
-
-.bubbles li:nth-child(3) {
-  width: 35px;
-  height: 35px;
-  left: 60%;
-
-  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-  animation-delay: 4s;
-  animation-duration: 13s;
-}
-
-.bubbles li:nth-child(4) {
-  width: 30px;
-  height: 30px;
-
-  clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
-  left: 80%;
-  animation-delay: 1s;
-  animation-duration: 22s;
-}
-
-.bubbles li:nth-child(5) {
-  width: 50px;
-  height: 50px;
-  left: 80%;
-  animation-delay: 7s;
-  animation-duration: 22s;
-}
-
-.bubbles li:nth-child(6) {
-  width: 50px;
-  height: 50px;
-  left: 80%;
-  animation-delay: 5s;
-  animation-duration: 22s;
-}
-
-.bubbles li:nth-child(7) {
-  width: 50px;
-  height: 50px;
-  left: 50%;
-  animation-delay: 4s;
-  animation-duration: 22s;
-}
-
-.bubbles li:nth-child(8) {
-  width: 40px;
-  height: 40px;
-  left: 50%;
-  animation-delay: 2s;
-  animation-duration: 22s;
-}
-
-.bubbles li:nth-child(9) {
-  width: 50px;
-  height: 50px;
-  left: 80%;
-  animation-delay: 2s;
-  animation-duration: 22s;
-}
-
-.bubbles li:nth-child(10) {
-  width: 50px;
-  height: 50px;
-  left: 80%;
-  animation-delay: 2s;
-  animation-duration: 22s;
-}
-
-.bubbles li:nth-child(11) {
-  width: 50px;
-  height: 50px;
-  left: 10%;
-  animation-delay: 2s;
-  animation-duration: 22s;
-}
-
-@keyframes square {
-  0% {
-      -webkit-transform: translateY(0);
-      transform: translateY(0);
-  }
-
-  100% {
-      -webkit-transform: translateY(-1080px) rotate(630deg);
-      transform: translateY(-1080px) rotate(630deg);
-  }
-}
-
-
 a {
 	cursor: pointer;
   transition: all 200ms linear;
@@ -247,7 +111,7 @@ h6 span{
 }
 .card-front, .card-back {
   width: 100%;
-  height: 120%;
+  height: 100%;
   background-color: #2a2b38;
   background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
   background-position: bottom center;
